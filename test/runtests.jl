@@ -1,6 +1,7 @@
+using Documenter
 using SnakeIterator
 using Test
 
 @testset "SnakeIterator.jl" begin
-    # Write your tests here.
+    doctest(SnakeIterator; manual = false)
 end
