@@ -1,0 +1,7 @@
+name = "SnakeIterator"
+uuid = "2a3ac32a-96bb-42aa-a23f-7363afb8ec0a"
+authors = ["Tamas Nagy <tamas@tamasnagy.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
