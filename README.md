@@ -22,6 +22,14 @@ liquid handling, etc
 
 ## How?
 
+First, install the package from the General registry
+
+```julia
+using Pkg
+
+Pkg.add("SnakeIterator")
+```
+
 The only exported function is `snake` and it constructs a `SnakeIterator` that
 should just work (tm) like any other iterator.
 
